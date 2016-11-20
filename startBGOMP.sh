@@ -1,0 +1,6 @@
+mpisubmit.bg --env BG_SHAREDMEMPOOLSIZE=256 -n 128 -w 00:15:00 --stdout ./resultsOMP/rezultOMP-128-1000.out ./parallel_omp -- -x 0 -y 0 -a 2 -b 2 -r 1000 -c 1000 -f ./resultsOMP/rezult_ParOMP_128_1000.txt
+mpisubmit.bg --env BG_SHAREDMEMPOOLSIZE=256 -n 256 -w 00:10:00 --stdout ./resultsOMP/rezultOMP-256-1000.out ./parallel_omp -- -x 0 -y 0 -a 2 -b 2 -r 1000 -c 1000 -f ./resultsOMP/rezult_ParOMP_256_1000.txt
+mpisubmit.bg --env BG_SHAREDMEMPOOLSIZE=256 -n 512 -w 00:05:00 --stdout ./resultsOMP/rezultOMP-512-1000.out ./parallel_omp -- -x 0 -y 0 -a 2 -b 2 -r 1000 -c 1000 -f ./resultsOMP/rezult_ParOMP_512_1000.txt
+mpisubmit.bg --env BG_SHAREDMEMPOOLSIZE=256 -n 128 -w 00:15:00 --stdout ./resultsOMP/rezultOMP-128-2000.out ./parallel_omp -- -x 0 -y 0 -a 2 -b 2 -r 2000 -c 2000 -f ./resultsOMP/rezult_ParOMP_128_2000.txt
+mpisubmit.bg --env BG_SHAREDMEMPOOLSIZE=256 -n 256 -w 00:10:00 --stdout ./resultsOMP/rezultOMP-256-2000.out ./parallel_omp -- -x 0 -y 0 -a 2 -b 2 -r 2000 -c 2000 -f ./resultsOMP/rezult_ParOMP_256_2000.txt
+mpisubmit.bg --env BG_SHAREDMEMPOOLSIZE=256 -n 512 -w 00:05:00 --stdout ./resultsOMP/rezultOMP-512-2000.out ./parallel_omp -- -x 0 -y 0 -a 2 -b 2 -r 2000 -c 2000 -f ./resultsOMP/rezult_ParOMP_512_2000.txt
