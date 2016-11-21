@@ -1,4 +1,6 @@
 # ConjugateGradientsMethod
+## Построение графиков
+Построение графиков производится с помощью системы Matlab, соотвеетствующий скрипт SurfSk.m
 ## Сборка
 * make sequential - последовательная версия
 * make parallel - MPI версия
