@@ -157,7 +157,7 @@ ostream &dropToStream(ostream& os, const Grid &grid) {
         for(long j = 0; j < grid.getColumnsCount(); ++j) {
             PointD p = grid.getPointFromCache(i, j);
             double val = grid(i,j);
-            os << p.first << "\t" << p.second << "\t" << val <<"\n";
+            os << p.first << "," << p.second << "," << val <<"\n";
         }
     }
     return os;
