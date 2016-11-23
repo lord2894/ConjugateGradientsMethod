@@ -21,6 +21,8 @@
 
 -c int -- число столбцов в сетке
 
+-f string -- выходной файл
+
 Функции F и phi задаются в файле InputFunctions.cpp и далее используются как callback-функции
 
 ### На BlueGene
